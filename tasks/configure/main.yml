@@ -1,0 +1,3 @@
+- name: "Export vars for other roles to use"
+  ansible.builtin.include_tasks: export_vars/main.yml
+

@@ -1,0 +1,6 @@
+- name: "Install the lsblk utility"
+  ansible.builtin.include_tasks: install/main.yml
+
+- name: "Configure the lsblk utility"
+  ansible.builtin.include_tasks: configure/main.yml
+

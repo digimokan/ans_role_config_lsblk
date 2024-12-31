@@ -1,0 +1,4 @@
+- name: "Set 'lsblk_show_device_table_cmd' var, for export to other roles"
+  ansible.builtin.set_fact:
+    lsblk_show_device_table_cmd: 'lsblk -f'
+
